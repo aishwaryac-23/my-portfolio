@@ -1,0 +1,87 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+}
+
+header {
+    background-color: #222; /* Dark grey header */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 30px;
+    margin: 20px;
+    background: #808080; /* Dark grey for sections */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1); /* Light shadow for depth */
+}
+
+h2 {
+    color: #fff; /* White color for headings */
+    border-bottom: 2px solid #ccc; /* Light grey underline effect */
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 15px 0;
+    padding: 10px;
+    background: #333; /* Dark background for list items */
+    border: 1px solid #555; /* Medium grey border for items */
+    border-radius: 5px;
+    transition: background 0.3s, border 0.3s;
+}
+
+li:hover {
+    background: #444; /* Darker grey on hover */
+    border-color: #fff; /* Change border color on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222; /* Dark grey footer */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ffc107; /* Gold color for links in the footer */
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #fff; /* Change link color to white on hover */
+}
